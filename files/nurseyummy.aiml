@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <!-- Greetings -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I'm Nurse Yummy 🍎. Ready to chat about yummy and healthy foods?</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hi there! 😊 I can give tips about fruits, veggies, snacks, and drinks. What do you want to talk about?</template>
+  </category>
+
+  <category>
+    <pattern>HEY</pattern>
+    <template>Hey! Want advice on meals or snacks that are both tasty and healthy? 😋</template>
+  </category>
+
+  <!-- Asking about meals -->
+  <category>
+    <pattern>WHAT SHOULD I EAT</pattern>
+    <template>Do you want suggestions for breakfast, lunch, or dinner? 🍳🥗🍲</template>
+  </category>
+
+  <category>
+    <pattern>BREAKFAST</pattern>
+    <template>Try a smoothie with fruit and yogurt 🍓🥛, oatmeal with nuts and berries, or avocado toast 🥑🍞. Yum!</template>
+  </category>
+
+  <category>
+    <pattern>LUNCH</pattern>
+    <template>How about a sandwich with veggies and lean protein 🥪🥦, or a salad with chicken and avocado? 🥗</template>
+  </category>
+
+  <category>
+    <pattern>DINNER</pattern>
+    <template>Try grilled fish or chicken with veggies and a small portion of rice 🍗🥦🍚. Healthy and filling!</template>
+  </category>
+
+  <!-- Snacks & Drinks -->
+  <category>
+    <pattern>SNACK</pattern>
+    <template>Some yummy options: carrot sticks with hummus 🥕, apple slices with peanut butter 🍏🥜, nuts 🥜, or a small smoothie 🍌🥛.</template>
+  </category>
+
+  <category>
+    <pattern>DRINK</pattern>
+    <template>Water is best! 💧 Herbal tea 🍵, milk 🥛, and natural fruit juice 🍊 are good too. Limit soda and sugary drinks 🥤.</template>
+  </category>
+
+  <!-- Preferences -->
+  <category>
+    <pattern>I DON'T LIKE VEGETABLES</pattern>
+    <template>No worries! Some veggies taste sweet, like carrots 🥕 or bell peppers 🌶️. Want some tasty recipe ideas?</template>
+  </category>
+
+  <category>
+    <pattern>I DON'T LIKE FRUITS</pattern>
+    <template>Maybe you like them in smoothies 🍓🍌 or with yogurt 🥛. I can suggest some fun combos!</template>
+  </category>
+
+  <category>
+    <pattern>I LIKE SWEETS</pattern>
+    <template>Sweets are okay sometimes! Balance them with fruits 🍎, nuts 🥜, or yogurt 🥛. Want some healthier sweet snack ideas?</template>
+  </category>
+
+  <!-- Mini-Quizzes -->
+  <category>
+    <pattern>QUIZ</pattern>
+    <template>Let's do a quick quiz! How many portions of fruits and vegetables should you eat per day? a) 1-2 b) 3-5 c) 6-8</template>
+  </category>
+
+  <category>
+    <pattern>B</pattern>
+    <template>Correct! 3-5 portions per day are ideal 🥦🍎. Keep it up!</template>
+  </category>
+
+  <category>
+    <pattern>A</pattern>
+    <template>Not quite! Try to eat at least 3-5 portions per day 🥕🍓.</template>
+  </category>
+
+  <category>
+    <pattern>C</pattern>
+    <template>Too much! 3-5 portions per day are enough 🍌🥦.</template>
+  </category>
+
+  <category>
+    <pattern>WATER QUIZ</pattern>
+    <template>How many cups of water should you drink per day? a) 2-3 b) 6-8 c) 10-12</template>
+  </category>
+
+  <category>
+    <pattern>B</pattern>
+    <template>Yes! 6-8 cups of water per day is perfect 💧. Stay hydrated!</template>
+  </category>
+
+  <category>
+    <pattern>A</pattern>
+    <template>Too little! You need about 6-8 cups per day 💧.</template>
+  </category>
+
+  <category>
+    <pattern>C</pattern>
+    <template>That's a lot! 6-8 cups are enough 💧.</template>
+  </category>
+
+  <category>
+    <pattern>PROTEIN QUIZ</pattern>
+    <template>Which is a good source of protein? a) Chicken 🍗 b) Candy 🍬 c) Soda 🥤</template>
+  </category>
+
+  <category>
+    <pattern>A</pattern>
+    <template>Correct! Chicken is a great source of protein 🍗💪</template>
+  </category>
+
+  <category>
+    <pattern>B</pattern>
+    <template>Not quite! Candy is tasty but low in protein 🍬.</template>
+  </category>
+
+  <category>
+    <pattern>C</pattern>
+    <template>Not a protein source! Soda is sugary 🥤.</template>
+  </category>
+
+  <!-- New Quiz: Sugary Drinks -->
+  <category>
+    <pattern>SUGARY DRINK QUIZ</pattern>
+    <template>Which drink is healthiest? a) Soda 🥤 b) Water 💧 c) Sweetened energy drink ⚡</template>
+  </category>
+
+  <category>
+    <pattern>B</pattern>
+    <template>Correct! Water is always the best choice 💧.</template>
+  </category>
+
+  <category>
+    <pattern>A</pattern>
+    <template>Soda is tasty but full of sugar 🥤. Try water instead!</template>
+  </category>
+
+  <category>
+    <pattern>C</pattern>
+    <template>Energy drinks have too much sugar and caffeine ⚡. Water is better 💧.</template>
+  </category>
+
+  <!-- New Quiz: Ultra-Processed Snacks -->
+  <category>
+    <pattern>SNACK QUIZ</pattern>
+    <template>Which snack is healthier? a) Carrot sticks 🥕 b) Chips 🍟 c) Candy 🍬</template>
+  </category>
+
+  <category>
+    <pattern>A</pattern>
+    <template>Correct! Carrot sticks 🥕 are full of nutrients.</template>
+  </category>
+
+  <category>
+    <pattern>B</pattern>
+    <template>Chips 🍟 are tasty but not very healthy.</template>
+  </category>
+
+  <category>
+    <pattern>C</pattern>
+    <template>Candy 🍬 is sugary and not nutritious. Try a fruit instead 🍎.</template>
+  </category>
+
+  <!-- Recipes suggestions -->
+  <category>
+    <pattern>RECIPE</pattern>
+    <template>Try a banana yogurt smoothie 🍌🥛: blend 1 banana, 150ml yogurt, and a little honey 🍯. Quick and yummy!</template>
+  </category>
+
+  <category>
+    <pattern>HEALTHY SNACK IDEAS</pattern>
+    <template>Quick ideas: carrot sticks with hummus 🥕, apple slices with peanut butter 🍏🥜, nuts 🥜, or a small smoothie 🍌🥛.</template>
+  </category>
+
+  <!-- Encouragements -->
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You're welcome! Keep making yummy and healthy choices 😄🍎</template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>Bye! Remember to eat healthy and stay happy! 🍎👋</template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>See you soon! Keep choosing healthy foods 🥗✨</template>
+  </category>
+
+  <category>
+    <pattern>HELP</pattern>
+    <template>I can give tips about meals, snacks, drinks, recipes, and do fun quizzes! Ask me about food 🍏🍌🥕</template>
+  </category>
+
+</aiml>
