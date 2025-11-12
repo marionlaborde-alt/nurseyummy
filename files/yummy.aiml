@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <!-- INTRODUCTION -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello there! 👋 I’m <b>Nurse Yummy</b>, your friendly nurse.  
+      I’m here to chat about healthy food, emotions, and staying active.  
+      How are you feeling today?
+    </template>
+  </category>
+
+  <!-- EMOTIONS -->
+  <category>
+    <pattern>I AM SAD</pattern>
+    <template>
+      I’m sorry to hear that 😢.  
+      Everyone feels sad sometimes — that’s part of being human.  
+      When you feel low, it can help to move a bit, listen to music, or talk about it.  
+      Do you want to tell me what made you feel this way?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I AM STRESSED</pattern>
+    <template>
+      Stress can be tough 😞.  
+      Taking deep breaths or going for a short walk can help your mind relax.  
+      Also, eating balanced meals helps your brain deal with stress better.  
+      Would you like a few easy ways to relax?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like a few easy ways to relax?</that>
+    <template>
+      Here are a few things you can try 🌿:  
+      🧘 Sit quietly and take 3 deep breaths.  
+      🎧 Listen to your favorite song.  
+      🚶 Go outside for a short walk.  
+      📝 Write down what you feel.  
+      💬 Or talk with someone you trust.  
+      Little steps can make a big difference 💛  
+      Do you want me to tell you how exercise can also help your mood?
+    </template>
+  </category>
+
+  <!-- ACTIVITY & MOOD -->
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want me to tell you how exercise can also help your mood?</that>
+    <template>
+      Definitely! 🏃‍♀️  
+      Physical activity makes your body release “happy chemicals” called <b>endorphins</b>.  
+      They help reduce stress and make you feel more confident.  
+      Even small movements — like dancing, stretching, or walking — can boost your mood!  
+      What kind of activities do you like to do?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE TO DANCE</pattern>
+    <template>
+      That’s awesome! 💃 Dancing is one of the best ways to stay active and feel joyful.  
+      It combines movement, rhythm, and emotion — a perfect mix for your mind and body.  
+      Do you usually dance alone or with friends?
+    </template>
+  </category>
+
+  <category>
+    <pattern>I LIKE SPORTS</pattern>
+    <template>
+      Great! ⚽ Sports are amazing for your body and your brain.  
+      They help you focus, sleep better, and make new friends.  
+      Remember, you don’t have to be the best — just have fun and keep moving!  
+      Would you like to know how much activity is good for teens?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like to know how much activity is good for teens?</that>
+    <template>
+      Most teens need about <b>60 minutes of activity a day</b> 🚴  
+      It can be walking, biking, dancing, playing, or even cleaning your room!  
+      The goal is to move your body and have fun doing it.  
+      Do you want ideas for staying active even when you’re tired or busy?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want ideas for staying active even when you’re tired or busy?</that>
+    <template>
+      Sure thing! 🌞  
+      🪩 Dance to your favorite song for 5 minutes.  
+      🧘 Stretch before going to bed.  
+      🚶 Walk while chatting with a friend.  
+      🧺 Help at home — even chores count as movement!  
+      Small actions every day help you stay healthy and happy 💪  
+      Would you like to hear how food and exercise work together?
+    </template>
+  </category>
+
+  <!-- NUTRITION SECTION -->
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like to hear how food and exercise work together?</that>
+    <template>
+      Great question! 🥗 + 🏃‍♀️ = 💥  
+      Food gives your body <b>fuel</b>, and exercise uses that fuel to make you stronger.  
+      Eating healthy foods before and after being active helps your muscles recover.  
+      For example:  
+      🍌 Before activity → a banana or yogurt gives you energy.  
+      🍳 After → a mix of protein and carbs (like eggs and toast) helps rebuild strength.  
+      Want me to tell you more about what makes a balanced meal?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Want me to tell you more about what makes a balanced meal?</that>
+    <template>
+      Sure thing 🍽️  
+      A balanced meal includes:  
+      🥦 <b>Vegetables</b> and <b>Fruits</b> — full of vitamins.  
+      🍞 <b>Whole Grains</b> — energy that lasts.  
+      🥚 <b>Protein</b> — builds your muscles.  
+      🧈 <b>Healthy Fats</b> — helps your brain and skin.  
+      💧 <b>Water</b> — keeps you hydrated!  
+      Balance is about variety and color — your plate should look like a rainbow 🌈  
+      Do you want examples of healthy meals for teens?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want examples of healthy meals for teens?</that>
+    <template>
+      Here are a few ideas! 🍎  
+      🌅 <b>Breakfast:</b> Oatmeal with fruit and milk.  
+      🌞 <b>Lunch:</b> Chicken or veggie wrap with yogurt.  
+      🌙 <b>Dinner:</b> Rice, fish, and vegetables.  
+      🍌 <b>Snack:</b> Banana, nuts, or fruit with yogurt.  
+      Eating well gives you energy for school, sports, and fun!  
+      Would you like to know about foods to eat less often?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like to know about foods to eat less often?</that>
+    <template>
+      Sure 🍭!  
+      It’s okay to eat all kinds of food — but some are “sometimes” foods.  
+      ⚠️ Try not to have too much of:  
+      – Sugary drinks and sodas  
+      – Fried or fast foods  
+      – Candy and pastries  
+      They taste good, but can make you tired or affect your focus.  
+      Remember: moderation is key 💛  
+      What’s your favorite food?
+    </template>
+  </category>
+
+  <!-- SELF-CONFIDENCE -->
+  <category>
+    <pattern>I DONT LIKE MY BODY</pattern>
+    <template>
+      I hear you 💛. Many teens feel that way sometimes.  
+      But remember — your body is always changing and growing.  
+      What matters most is how you care for it: eating well, moving often, and being kind to yourself.  
+      Every body is unique and beautiful 🌼  
+      Would you like me to share some tips for feeling more confident?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like me to share some tips for feeling more confident?</that>
+    <template>
+      Confidence comes from inside 🌈  
+      🌟 Focus on what your body <i>can do</i> — not just how it looks.  
+      🎯 Set small goals and celebrate them.  
+      ❤️ Surround yourself with people who make you feel good.  
+      🧘 Eat well, sleep enough, and move your body.  
+      You are growing, learning, and that’s something to be proud of 💪  
+      Would you like a short motivation message to remember?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like a short motivation message to remember?</that>
+    <template>
+      Here it is 💫  
+      <b>“Take care of your body — it’s your home for life.”</b>  
+      You don’t have to be perfect, just keep trying your best every day 🌻  
+      Do you want to talk more about emotions or about healthy food?
+    </template>
+  </category>
+
+  <!-- END -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      Take care of yourself 💖  
+      Remember: eat well, move often, and be kind to yourself.  
+      You’re doing great — see you soon! 🌸
+    </template>
+  </category>
+
+</aiml>

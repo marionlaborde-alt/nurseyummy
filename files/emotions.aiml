@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <!-- TIRED -->
+  <category>
+    <pattern>* I AM TIRED *</pattern>
+    <template>
+      You sound tired 😴.  
+      Your body might need rest, water, or maybe just a quiet moment.  
+      Try to sleep early tonight — your brain and mood depend on it!  
+      Would you like me to give you some quick energy tips for tired days?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like me to give you some quick energy tips for tired days?</that>
+    <template>
+      Sure 🌞 Here are some ideas:  
+      ☀️ Drink water or have a fruit snack — dehydration makes you feel sleepy.  
+      🧘 Stretch for 2 minutes.  
+      🚶 Move a little — even walking around helps wake you up.  
+      🎧 Listen to a song you love!  
+      Your energy will slowly come back 💪  
+      Do you often feel tired during the day?
+    </template>
+  </category>
+
+  <!-- ANGRY -->
+  <category>
+    <pattern>* I AM ANGRY *</pattern>
+    <template>
+      It’s okay to feel angry 😠 — it means something important matters to you.  
+      But holding it inside can make you feel worse.  
+      Try to breathe deeply, write your thoughts, or move your body.  
+      Would you like me to give you ideas to calm down when you’re angry?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like me to give you ideas to calm down when you’re angry?</that>
+    <template>
+      Here are a few calming tricks 🧘‍♀️  
+      🌬️ Take 3 deep breaths — in slowly, out slowly.  
+      🖊️ Write or draw what makes you angry.  
+      🏃 Do something active like dancing or running.  
+      💬 Talk to someone you trust.  
+      Anger passes faster when you let it out in a healthy way 💛  
+      Do you want to learn how food can affect your mood when you’re angry?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want to learn how food can affect your mood when you’re angry?</that>
+    <template>
+      Sure 🍎  
+      When we’re angry, our body releases stress hormones.  
+      Eating heavy or sugary foods can make you feel even more upset later.  
+      Instead, try:  
+      🍵 A tea, 🍌 a banana, or 🥗 light vegetables — they calm your body.  
+      Small food choices can make a big emotional difference 🌿  
+      Would you like to talk about how to handle stress?
+    </template>
+  </category>
+
+  <!-- ANXIOUS -->
+  <category>
+    <pattern>* I AM ANXIOUS *</pattern>
+    <template>
+      Anxiety can feel like butterflies in your stomach 🦋 or a racing heart.  
+      You’re not alone — lots of teens feel that way.  
+      Do you want a few techniques to calm your anxiety naturally?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want a few techniques to calm your anxiety naturally?</that>
+    <template>
+      Here’s what can help 💕  
+      🫁 Breathe in for 4 seconds, out for 4 seconds — repeat 3 times.  
+      ✍️ Write what worries you on paper.  
+      🕯️ Try relaxing your shoulders and face muscles.  
+      🧘 Eat slowly — calm food, calm mind.  
+      You can always take small steps to feel better 🌸  
+      Would you like to talk about how sleep and food can reduce anxiety?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like to talk about how sleep and food can reduce anxiety?</that>
+    <template>
+      Definitely 😌  
+      💤 <b>Sleep:</b> Try to get 8–9 hours — your brain needs rest to handle stress.  
+      🥗 <b>Food:</b> Eat slowly and regularly; skipping meals can make anxiety worse.  
+      🍊 <b>Vitamins:</b> Fruits, nuts, and fish help your brain relax.  
+      Your mind and body are a team — care for both 💚  
+      What usually makes you feel anxious?
+    </template>
+  </category>
+
+  <!-- LONELY -->
+  <category>
+    <pattern>* I AM LONELY *</pattern>
+    <template>
+      Feeling lonely can hurt 💔, but it doesn’t mean you’re truly alone.  
+      You matter to others more than you think.  
+      Try reaching out to a friend, joining a club, or talking with someone online safely.  
+      Would you like ideas to feel more connected with people?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Would you like ideas to feel more connected with people?</that>
+    <template>
+      Sure 🌼  
+      💬 Say hi to someone new at school.  
+      🧩 Join a sport, art, or music activity you enjoy.  
+      📱 Call or text a friend you haven’t talked to in a while.  
+      🐶 Spend time with pets if you can — they’re great listeners!  
+      Building small connections every day helps your heart feel full 💖  
+      Do you want to know how food can also affect feelings of loneliness?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want to know how food can also affect feelings of loneliness?</that>
+    <template>
+      Yes 💛 Food affects emotions too.  
+      Sharing meals — even online or with family — can make you feel connected.  
+      Cooking for yourself or others is a great act of self-care 🥣  
+      Sometimes, comfort food can warm the heart — just in balance 🍫  
+      What kind of meal makes you feel good inside?
+    </template>
+  </category>
+
+  <!-- BORED -->
+  <category>
+    <pattern>* I AM BORED *</pattern>
+    <template>
+      Boredom happens to everyone sometimes 😐.  
+      It’s your brain asking for something new or fun!  
+      Want me to give you some healthy ways to beat boredom?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Want me to give you some healthy ways to beat boredom?</that>
+    <template>
+      Try this list 🧠💡  
+      🎶 Dance or sing to your favorite song.  
+      🍳 Try cooking something new.  
+      🎨 Draw or make something creative.  
+      📚 Learn a new skill online.  
+      🤸 Move your body — even 5 minutes helps your mood.  
+      Boredom can be a door to creativity ✨  
+      Do you want ideas for fun, active hobbies?
+    </template>
+  </category>
+
+  <category>
+    <pattern>YES</pattern>
+    <that>Do you want ideas for fun, active hobbies?</that>
+    <template>
+      Here you go! 🌈  
+      🏀 Basketball or dance  
+      🚴 Cycling or roller-skating  
+      🧘 Yoga or stretching  
+      🎭 Acting or drama club  
+      🧺 Gardening or walking your dog  
+      Movement + fun = healthy mind and body 💪  
+      What’s something new you’d like to try?
+    </template>
+  </category>
+
+</aiml>
